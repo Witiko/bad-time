@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Bad Time_data" version="1.3.0" audacityversion="2.1.3-alpha-Feb 29 2016" sel0="11.3894582293" sel1="11.3894582293" vpos="368" h="0.0000000000" zoom="5.7070317737" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Bad Time_data" version="1.3.0" audacityversion="2.1.3-alpha-Feb 29 2016" sel0="12.2436675965" sel1="12.2436675965" vpos="416" h="11.5208750551" zoom="91.3125083792" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags>
 		<tag name="COMMENTS" value="SVWC-7464"/>
 		<tag name="Composer" value="Shoji Meguro"/>
@@ -367,8 +367,11 @@
 					<simpleblockfile filename="e000050b.au" len="159011" min="-0.645968" max="0.577905" rms="0.104981"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="6">
-				<controlpoint t="20.413413595641" val="0.990196049213"/>
+			<envelope numpoints="9">
+				<controlpoint t="12.418890030824" val="0.990196049213"/>
+				<controlpoint t="12.418895030824" val="0.862745106220"/>
+				<controlpoint t="18.266938775498" val="0.852941155434"/>
+				<controlpoint t="20.457219204215" val="0.970588207245"/>
 				<controlpoint t="20.534565898293" val="0.697035253048"/>
 				<controlpoint t="100.260086624511" val="0.696078419685"/>
 				<controlpoint t="100.260091624511" val="0.464788734913"/>
@@ -482,8 +485,11 @@
 					<simpleblockfile filename="e00004fa.au" len="159011" min="-0.603513" max="0.607125" rms="0.1087"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="6">
-				<controlpoint t="20.413413595641" val="0.990196049213"/>
+			<envelope numpoints="9">
+				<controlpoint t="12.418890030824" val="0.990196049213"/>
+				<controlpoint t="12.418895030824" val="0.862745106220"/>
+				<controlpoint t="18.266938775498" val="0.852941155434"/>
+				<controlpoint t="20.457219204215" val="0.970588207245"/>
 				<controlpoint t="20.534565898293" val="0.697035253048"/>
 				<controlpoint t="100.260086624511" val="0.696078419685"/>
 				<controlpoint t="100.260091624511" val="0.464788734913"/>
@@ -599,9 +605,12 @@
 					<simpleblockfile filename="e00008b4.au" len="193651" min="-0.73204" max="0.820385" rms="0.149865"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="10">
+			<envelope numpoints="13">
 				<controlpoint t="4.000234324040" val="1.000000000000"/>
 				<controlpoint t="4.093321242260" val="0.845070421696"/>
+				<controlpoint t="20.040616151220" val="0.823943674564"/>
+				<controlpoint t="20.053620941266" val="1.190140843391"/>
+				<controlpoint t="22.655947875635" val="0.830985903740"/>
 				<controlpoint t="27.918091605627" val="0.830985903740"/>
 				<controlpoint t="27.918096605627" val="1.091549277306"/>
 				<controlpoint t="35.808581850079" val="1.077464818954"/>
@@ -697,9 +706,12 @@
 					<simpleblockfile filename="e0000643.au" len="193651" min="-0.805467" max="0.93089" rms="0.158405"/>
 				</waveblock>
 			</sequence>
-			<envelope numpoints="10">
+			<envelope numpoints="13">
 				<controlpoint t="4.000234324040" val="1.000000000000"/>
 				<controlpoint t="4.093321242260" val="0.845070421696"/>
+				<controlpoint t="20.040616151220" val="0.823943674564"/>
+				<controlpoint t="20.053620941266" val="1.190140843391"/>
+				<controlpoint t="22.655947875635" val="0.830985903740"/>
 				<controlpoint t="27.918091605627" val="0.830985903740"/>
 				<controlpoint t="27.918096605627" val="1.091549277306"/>
 				<controlpoint t="35.808581850079" val="1.077464818954"/>
