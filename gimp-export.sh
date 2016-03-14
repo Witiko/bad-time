@@ -1,0 +1,1 @@
+../Psychedelic Democracy/gimp-export.sh

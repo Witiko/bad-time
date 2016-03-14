@@ -1,0 +1,42 @@
+.PHONY: all music images video clean implode
+MUSIC=mix.flac mix.mp3 mix.ogg
+IMAGES=badtime.png sans.png sans-youtube.png sans-youtube-1080p.png
+VIDEO=mix.mkv
+AUXILIARY=sans-youtube.png
+OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
+
+all: $(OUTPUT) clean
+music: $(MUSIC) clean
+images: $(IMAGES) clean
+video: $(VIDEO) clean
+
+# @require flac idv3
+%.flac: %.aup sans.png
+	-aupexport $< $@
+	metaflac --remove-all-tags $@
+	id3v2 -t 'Having a Bad Time' -a 'Vít Novotný' -y `LC_ALL=C stat $< | sed -n '/^Modify:/s/^Modify: \(....\).*/\1/p'` -g Game $@
+	metaflac --import-picture-from=$(word 2,$^) $@
+
+# @require imagemagick
+%-1080p.png: %.png
+	convert $< -resize '1920x1080!' $@
+
+# @require ffmpeg
+%.mp3: %.flac
+	ffmpeg -i $< -c:a libmp3lame -q:a 0 -b:a 320k -abr 1 -y $@
+
+%.ogg: %.flac
+	ffmpeg -i $< -c:a libvorbis -q:a 10 -map a -y $@
+
+%.mkv: %.ogg sans-youtube-1080p.png
+	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx264 -c:a copy -shortest -y $@
+
+# @require gimp
+%.png: %.xcf
+	./gimp-export.sh $< $@
+
+clean:
+	rm -f $(AUXILIARY)
+
+implode: clean
+	rm -f $(OUTPUT)
