@@ -1,14 +1,14 @@
-.PHONY: all music images video clean implode
+.PHONY: all music images video implode
 MUSIC=mix.flac mix.mp3 mix.ogg
 IMAGES=badtime.png sans.png sans-youtube.png sans-youtube-1080p.png
 VIDEO=mix.mkv
 AUXILIARY=sans-youtube.png
 OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
 
-all: $(OUTPUT) clean
-music: $(MUSIC) clean
-images: $(IMAGES) clean
-video: $(VIDEO) clean
+all: $(OUTPUT)
+music: $(MUSIC)
+images: $(IMAGES)
+video: $(VIDEO)
 
 # @require flac idv3
 %.flac: %.aup sans.png
@@ -35,8 +35,5 @@ video: $(VIDEO) clean
 %.png: %.xcf
 	./gimp-export.sh $< $@
 
-clean:
-	rm -f $(AUXILIARY)
-
-implode: clean
-	rm -f $(OUTPUT)
+implode:
+	rm -f $(OUTPUT) $(AUXILIARY)
