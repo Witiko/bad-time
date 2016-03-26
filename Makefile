@@ -14,7 +14,7 @@ video: $(VIDEO)
 %.flac: %.aup sans.png
 	-aupexport $< $@
 	metaflac --remove-all-tags $@
-	id3v2 -t 'Having a Bad Time' -a 'Vít Novotný' -y `LC_ALL=C stat $< | sed -n '/^Modify:/s/^Modify: \(....\).*/\1/p'` -g Game $@
+	id3v2 -t 'Having a Funk Overload' -a 'Vít Novotný' -y `LC_ALL=C stat $< | sed -n '/^Modify:/s/^Modify: \(....\).*/\1/p'` -g Game $@
 	metaflac --import-picture-from=$(word 2,$^) $@
 
 # @require imagemagick
