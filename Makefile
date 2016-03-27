@@ -2,6 +2,7 @@
 MUSIC=mix.flac mix.mp3 mix.ogg
 IMAGES=badtime.png sans.png sans-youtube.png sans-youtube-1080p.png
 VIDEO=mix.mkv
+SUBTITLES=mix.srt
 AUXILIARY=sans-youtube.png
 OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
 
@@ -28,8 +29,8 @@ video: $(VIDEO)
 %.ogg: %.flac
 	ffmpeg -i $< -c:a libvorbis -q:a 10 -map a -y $@
 
-%.mkv: %.ogg sans-youtube-1080p.png
-	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx264 -c:a copy -shortest -y $@
+%.mkv: %.ogg sans-youtube-1080p.png $(SUBTITLES)
+	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -i $(SUBTITLES) -c:v libx264 -c:a copy -shortest -y $@
 
 # @require gimp
 %.png: %.xcf
