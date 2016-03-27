@@ -89,7 +89,7 @@ I'm the next masterpiece made
 20
 00:00:54,099 --> 00:00:56,275
 A new generation team,
-a wicked beast "Ace"
+a wicked beast “Ace”
 
 21
 00:00:56,275 --> 00:00:57,232
@@ -123,8 +123,8 @@ L to the J's, now follow me
 
 28
 00:01:08,428 --> 00:01:23,425
-(* You feel like you are going
-to have a kazoo time)
+* You feel like you are going
+to have a kazoo time
 
 29
 00:01:23,425 --> 00:01:25,029
