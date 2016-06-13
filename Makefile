@@ -29,7 +29,7 @@ video: $(VIDEO)
 	ffmpeg -i $< -c:a libvorbis -q:a 10 -map a -y $@
 
 %.mkv: %.ogg sans-youtube-1080p.png
-	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx264 -c:a copy -shortest -y $@
+	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx265 -c:a copy -shortest -vf ass=mix.ass -y $@
 
 # @require gimp
 %.png: %.xcf
