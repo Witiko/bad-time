@@ -15,13 +15,17 @@
   <meta name="onion_skin" content="1"/>
   <meta name="onion_skin_future" content="0"/>
   <meta name="onion_skin_past" content="1"/>
-  <keyframe time="2m 50s 27.500f" active="true"/>
+  <keyframe time="27s 53f" active="true"/>
   <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2" desc="Rectangle002">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
     <param name="amount">
-      <real value="0.9999999907"/>
+      <animated type="real">
+        <waypoint time="27.88333321s" before="clamped" after="clamped">
+          <real value="0.9999999907"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="blend_method">
       <integer value="0"/>
@@ -94,25 +98,25 @@
     </param>
     <param name="vector_list">
       <dynamic_list type="vector">
-        <entry on="2m 50s 27.500f">
+        <entry on="27s 53f">
           <vector>
-            <x>-4.3651285172</x>
-            <y>1.0472086668</y>
+            <x>-4.4352579117</x>
+            <y>1.2892997265</y>
           </vector>
         </entry>
-        <entry on="2m 50s 27.500f">
+        <entry on="27s 53f">
           <vector>
             <x>4.3484416008</x>
             <y>2.7411224842</y>
           </vector>
         </entry>
-        <entry on="2m 50s 27.500f">
+        <entry on="27s 53f">
           <vector>
             <x>4.8708558083</x>
             <y>0.8583968878</y>
           </vector>
         </entry>
-        <entry on="2m 50s 27.500f">
+        <entry on="27s 53f">
           <vector>
             <x>-4.2408690453</x>
             <y>-3.5545563698</y>
@@ -121,7 +125,7 @@
       </dynamic_list>
     </param>
   </layer>
-  <layer type="polygon" active="false" exclude_from_rendering="false" version="0.1" desc="Polygon003">
+  <layer type="polygon" active="true" exclude_from_rendering="false" version="0.1" desc="Polygon003">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -162,34 +166,98 @@
     </param>
     <param name="vector_list">
       <dynamic_list type="vector">
-        <entry on="2m 50s 27.500f">
-          <vector>
-            <x>-5.3604931831</x>
-            <y>-2.2917251587</y>
-          </vector>
+        <entry on="27s 53f">
+          <animated type="vector">
+            <waypoint time="-2m -14.02362347s" before="clamped" after="clamped">
+              <vector>
+                <x>-21.7813282013</x>
+                <y>-8.9152708054</y>
+              </vector>
+            </waypoint>
+            <waypoint time="-2m -10.14032364s" before="clamped" after="clamped">
+              <vector>
+                <x>-5.3604931831</x>
+                <y>-2.2917251587</y>
+              </vector>
+            </waypoint>
+            <waypoint time="27.8833313s" before="clamped" after="clamped">
+              <vector>
+                <x>-5.3604931831</x>
+                <y>-2.2917251587</y>
+              </vector>
+            </waypoint>
+          </animated>
         </entry>
-        <entry on="2m 50s 27.500f">
-          <vector>
-            <x>4.5464611053</x>
-            <y>1.7263473272</y>
-          </vector>
+        <entry on="27s 53f">
+          <animated type="vector">
+            <waypoint time="-2m -14.02362347s" before="clamped" after="clamped">
+              <vector>
+                <x>-4.3311657906</x>
+                <y>-1.8378168344</y>
+              </vector>
+            </waypoint>
+            <waypoint time="-2m -10.14032364s" before="clamped" after="clamped">
+              <vector>
+                <x>4.5464611053</x>
+                <y>1.7263473272</y>
+              </vector>
+            </waypoint>
+            <waypoint time="27.8833313s" before="clamped" after="clamped">
+              <vector>
+                <x>4.5464611053</x>
+                <y>1.7263473272</y>
+              </vector>
+            </waypoint>
+          </animated>
         </entry>
-        <entry on="2m 50s 27.500f">
-          <vector>
-            <x>4.8728933334</x>
-            <y>0.2119939178</y>
-          </vector>
+        <entry on="27s 53f">
+          <animated type="vector">
+            <waypoint time="-2m -14.02362347s" before="clamped" after="clamped">
+              <vector>
+                <x>-3.7561864853</x>
+                <y>-4.5052070618</y>
+              </vector>
+            </waypoint>
+            <waypoint time="-2m -10.14032364s" before="clamped" after="clamped">
+              <vector>
+                <x>4.8728933334</x>
+                <y>0.2119939178</y>
+              </vector>
+            </waypoint>
+            <waypoint time="27.8833313s" before="clamped" after="clamped">
+              <vector>
+                <x>4.8728933334</x>
+                <y>0.2119939178</y>
+              </vector>
+            </waypoint>
+          </animated>
         </entry>
-        <entry on="2m 50s 27.500f">
-          <vector>
-            <x>-2.7900900841</x>
-            <y>-4.0863361359</y>
-          </vector>
+        <entry on="27s 53f">
+          <animated type="vector">
+            <waypoint time="-2m -14.02362347s" before="clamped" after="clamped">
+              <vector>
+                <x>-17.2538051605</x>
+                <y>-12.0763082504</y>
+              </vector>
+            </waypoint>
+            <waypoint time="-2m -10.14032364s" before="clamped" after="clamped">
+              <vector>
+                <x>-2.7900900841</x>
+                <y>-4.0863361359</y>
+              </vector>
+            </waypoint>
+            <waypoint time="27.8833313s" before="clamped" after="clamped">
+              <vector>
+                <x>-2.7900900841</x>
+                <y>-4.0863361359</y>
+              </vector>
+            </waypoint>
+          </animated>
         </entry>
       </dynamic_list>
     </param>
   </layer>
-  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="Flying text 2">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -228,7 +296,7 @@
       </composite>
     </param>
     <param name="canvas">
-      <canvas width="480" height="270" view-box="-4.000000 2.250000 4.000000 -2.250000" end-time="5s">
+      <canvas width="480" height="270" end-time="5s">
         <layer type="text" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -308,14 +376,14 @@
           </param>
           <param name="dest_tl">
             <animated type="vector">
-              <waypoint time="2m 45.45828247s" before="clamped" after="clamped">
-                <vector guid="3130E3E9F435DF2E96117D9F129CB925">
+              <waypoint time="1m 4.88332367s" before="clamped" after="clamped">
+                <vector>
                   <x>-17.5050430298</x>
                   <y>-8.0017843246</y>
                 </vector>
               </waypoint>
-              <waypoint time="2m 50.45833206s" before="clamped" after="clamped">
-                <vector guid="361EEF9EF343806CAFC9E141ED3850E8">
+              <waypoint time="1m 9.8833313s" before="clamped" after="clamped">
+                <vector>
                   <x>4.9279079437</x>
                   <y>1.7218605280</y>
                 </vector>
@@ -324,14 +392,14 @@
           </param>
           <param name="dest_tr">
             <animated type="vector">
-              <waypoint time="2m 45.45828247s" before="clamped" after="clamped">
-                <vector guid="D1E9D9170CB8C93F2AE0DC99AC2E73F7">
+              <waypoint time="1m 4.88332367s" before="clamped" after="clamped">
+                <vector>
                   <x>-4.4184455872</x>
                   <y>-2.2395062447</y>
                 </vector>
               </waypoint>
-              <waypoint time="2m 50.45833206s" before="clamped" after="clamped">
-                <vector guid="69B6F17DE941B8B87B0AD5BF838B4A6D">
+              <waypoint time="1m 9.8833313s" before="clamped" after="clamped">
+                <vector>
                   <x>9.6515693665</x>
                   <y>3.6599304676</y>
                 </vector>
@@ -340,14 +408,14 @@
           </param>
           <param name="dest_br">
             <animated type="vector">
-              <waypoint time="2m 45.45828247s" before="clamped" after="clamped">
-                <vector guid="4355D011925C8DE0AF1105A88A362FFA">
+              <waypoint time="1m 4.88332367s" before="clamped" after="clamped">
+                <vector>
                   <x>-3.3333690166</x>
                   <y>-3.5236065388</y>
                 </vector>
               </waypoint>
-              <waypoint time="2m 50.45833206s" before="clamped" after="clamped">
-                <vector guid="545009A6BCF400359636299220E847DC">
+              <waypoint time="1m 9.8833313s" before="clamped" after="clamped">
+                <vector>
                   <x>10.0272359848</x>
                   <y>3.1917111874</y>
                 </vector>
@@ -356,14 +424,229 @@
           </param>
           <param name="dest_bl">
             <animated type="vector">
-              <waypoint time="2m 45.45828247s" before="clamped" after="clamped">
-                <vector guid="792E967EE9122F165F9F6EF4CF39C491">
+              <waypoint time="1m 4.88332367s" before="clamped" after="clamped">
+                <vector>
                   <x>-16.0938129425</x>
                   <y>-10.2467956543</y>
                 </vector>
               </waypoint>
-              <waypoint time="2m 50.45833206s" before="clamped" after="clamped">
-                <vector guid="B85C2D9B0C15D62D8382B9117B8CDF79">
+              <waypoint time="1m 9.8833313s" before="clamped" after="clamped">
+                <vector>
+                  <x>5.4112734795</x>
+                  <y>0.9076764584</y>
+                </vector>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="clip">
+            <bool value="false"/>
+          </param>
+          <param name="horizon">
+            <real value="4.0000000000"/>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="Flying text 1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>0.0000000000</x>
+            <y>0.0000000000</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.0000000000</x>
+            <y>1.0000000000</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas">
+      <canvas width="480" height="270" end-time="5s">
+        <layer type="text" active="true" exclude_from_rendering="false" version="0.2">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>Bad Time</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>1.000000</r>
+              <g>1.000000</g>
+              <b>1.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>8bitoperator</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.2500000000</x>
+              <y>0.2500000000</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="warp" active="true" exclude_from_rendering="false" version="0.1">
+          <param name="src_tl">
+            <vector>
+              <x>-1.0158382654</x>
+              <y>0.1596216708</y>
+            </vector>
+          </param>
+          <param name="src_br">
+            <vector>
+              <x>1.0289459229</x>
+              <y>-0.1615634710</y>
+            </vector>
+          </param>
+          <param name="dest_tl">
+            <animated type="vector">
+              <waypoint time="22.88332558s" before="clamped" after="clamped">
+                <vector>
+                  <x>-17.5050430298</x>
+                  <y>-8.0017843246</y>
+                </vector>
+              </waypoint>
+              <waypoint time="27.8833313s" before="clamped" after="clamped">
+                <vector>
+                  <x>4.9279079437</x>
+                  <y>1.7218605280</y>
+                </vector>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="dest_tr">
+            <animated type="vector">
+              <waypoint time="22.88332558s" before="clamped" after="clamped">
+                <vector>
+                  <x>-4.4184455872</x>
+                  <y>-2.2395062447</y>
+                </vector>
+              </waypoint>
+              <waypoint time="27.8833313s" before="clamped" after="clamped">
+                <vector>
+                  <x>9.6515693665</x>
+                  <y>3.6599304676</y>
+                </vector>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="dest_br">
+            <animated type="vector">
+              <waypoint time="22.88332558s" before="clamped" after="clamped">
+                <vector>
+                  <x>-3.3333690166</x>
+                  <y>-3.5236065388</y>
+                </vector>
+              </waypoint>
+              <waypoint time="27.8833313s" before="clamped" after="clamped">
+                <vector>
+                  <x>10.0272359848</x>
+                  <y>3.1917111874</y>
+                </vector>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="dest_bl">
+            <animated type="vector">
+              <waypoint time="22.88332558s" before="clamped" after="clamped">
+                <vector>
+                  <x>-16.0938129425</x>
+                  <y>-10.2467956543</y>
+                </vector>
+              </waypoint>
+              <waypoint time="27.8833313s" before="clamped" after="clamped">
+                <vector>
                   <x>5.4112734795</x>
                   <y>0.9076764584</y>
                 </vector>
@@ -409,7 +692,20 @@
       <real value="0.0000000000"/>
     </param>
     <param name="amount">
-      <real value="1.0000000000"/>
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+        <waypoint time="48.79999924s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+        <waypoint time="48.81666565s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="4m 51s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="blend_method">
       <integer value="0" static="true"/>
@@ -424,8 +720,8 @@
       <composite type="transformation">
         <offset>
           <vector>
-            <x>-2.3651695251</x>
-            <y>-0.3104652464</y>
+            <x>-2.5986487865</x>
+            <y>0.2354393452</y>
           </vector>
         </offset>
         <angle>
@@ -436,8 +732,8 @@
         </skew_angle>
         <scale>
           <vector>
-            <x>0.2656905353</x>
-            <y>0.2656905353</y>
+            <x>0.2656904161</x>
+            <y>0.2656904161</y>
           </vector>
         </scale>
       </composite>
@@ -466,6 +762,195 @@
     </param>
     <param name="z_range_blur">
       <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="27.88333321s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="48.78333282s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="48.79999924s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="48.81666565s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+        <waypoint time="4m 51s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>-2.4778671265</x>
+            <y>0.2332543433</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>0.2656904161</x>
+            <y>0.2656904161</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas" use="sans-character-silhouette2.sif#"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="switch" active="true" exclude_from_rendering="false" version="0.0" desc="sans-eye.png">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <animated type="real">
+        <waypoint time="-2m -5.94035959s" before="clamped" after="clamped">
+          <real value="-1.0000000000"/>
+        </waypoint>
+        <waypoint time="-2m -3.79037762s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="16.60000038s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="18.46666718s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>-2.4567849636</x>
+            <y>1.1685242653</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>0.2481140047</x>
+            <y>0.2481140047</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="import" active="true" exclude_from_rendering="false" version="0.1" desc="sans-eye.png">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0" static="true"/>
+          </param>
+          <param name="tl">
+            <vector>
+              <x>-0.6833333373</x>
+              <y>0.8249999881</y>
+            </vector>
+          </param>
+          <param name="br">
+            <vector>
+              <x>0.6833333373</x>
+              <y>-0.8249999881</y>
+            </vector>
+          </param>
+          <param name="c">
+            <integer value="1" static="true"/>
+          </param>
+          <param name="gamma_adjust">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="filename">
+            <string>sans-eye.png</string>
+          </param>
+          <param name="time_offset">
+            <time value="0s"/>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true" static="true"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="layer_name">
+      <string>sans-eye.png</string>
     </param>
   </layer>
 </canvas>
