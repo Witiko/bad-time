@@ -32,8 +32,8 @@ video: $(VIDEO)
 	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx265 -c:a copy -shortest -vf ass=mix.ass -y $@
 
 # @require gimp
-%.png: %.xcf
-	./gimp-export.sh $< $@
+%.png: %.svg
+	inkscape $< --export-png=$@ -w 2000 -h 2000
 
 implode:
 	rm -f $(OUTPUT) $(AUXILIARY)
