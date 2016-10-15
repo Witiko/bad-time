@@ -607,7 +607,7 @@
       </composite>
     </param>
     <param name="canvas">
-      <canvas width="480" height="270" end-time="5s">
+      <canvas>
         <layer type="text" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -799,7 +799,7 @@
       <real value="1.0000000000"/>
     </param>
     <param name="time_offset">
-      <time guid="AB833AD46338C929CE622C6EC359B745" value="-36s"/>
+      <time value="-36s"/>
     </param>
     <param name="children_lock">
       <bool value="false"/>
@@ -1711,6 +1711,80 @@
       </composite>
     </param>
     <param name="canvas" use="sans-character-silhouette2.sif#"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real guid="4DC39F4765FDB7A67A751A6F5800A566" value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="1m 4.6833334s" before="clamped" after="clamped">
+          <real guid="A177D07982DB1104C0DD2B60E608480D" value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="1m 5.69999981s" before="clamped" after="clamped">
+          <real guid="AC357322E7DF4759616173BF70121BED" value="1.0000000000"/>
+        </waypoint>
+      </animated>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>-2.4778671265</x>
+            <y>0.2332543433</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>0.2656904161</x>
+            <y>0.2656904161</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas" use="sans-character.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
