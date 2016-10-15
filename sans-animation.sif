@@ -68,22 +68,22 @@
           <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.26666641s" before="clamped" after="clamped">
-          <real guid="B7014A4001B6E85747866E80510D6B97" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.28333282s" before="clamped" after="clamped">
-          <real guid="D73666B1845B86B523CFA6DA23260E9E" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.31666565s" before="clamped" after="clamped">
-          <real guid="F471925168DF214F6BC5BEEC35ED5457" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.33333206s" before="clamped" after="clamped">
-          <real guid="5D813F1DD8763D9A0C7DCE10AE2BC960" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.34999847s" before="clamped" after="clamped">
-          <real guid="8306A39182E492549A410B4E9CD56342" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.38333511s" before="clamped" after="clamped">
-          <real guid="A97A4CBF01A9E07336869F5976F0C91B" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -319,16 +319,16 @@
     <param name="amount">
       <animated type="real">
         <waypoint time="2m 39.26666641s" before="clamped" after="clamped">
-          <real guid="90143E464E8BF636262ACF69B6E8FD66" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.31666565s" before="clamped" after="clamped">
-          <real guid="96F3BFC093A282AC9E8EEE2DB32E21DA" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.33333206s" before="clamped" after="clamped">
-          <real guid="CF787641EFA6FA04C51727695241B4E2" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.34999847s" before="clamped" after="clamped">
-          <real guid="522036FC3AD77F5558B1D2CF026A5F72" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -504,19 +504,19 @@
     <param name="amount">
       <animated type="real">
         <waypoint time="2m 39.34999847s" before="clamped" after="clamped">
-          <real guid="AE4040F9DB423617F2BB1C6C2655C65C" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.36666489s" before="clamped" after="clamped">
-          <real guid="68D043B84FEC4D2133E9E90DAE49E17F" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.38333511s" before="clamped" after="clamped">
-          <real guid="831669F72914A897EB05B347E26D4057" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.40000153s" before="clamped" after="clamped">
-          <real guid="B985A062CC57C56DA807421A78E5187D" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.41666794s" before="clamped" after="clamped">
-          <real guid="57B3BC9B7C69467C393EB9F5959C5FD3" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -1996,7 +1996,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="././sans-character-silhouette.sif#"/>
+    <param name="canvas" use="sans-character-silhouette.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -2050,7 +2050,7 @@
           <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.26666641s" before="clamped" after="clamped">
-          <real guid="E327F9E514B57A951CE7FA4CF21F2E3B" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="4m 51s" before="clamped" after="clamped">
           <real value="1.0000000000"/>
@@ -2088,7 +2088,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="././sans-character-silhouette2.sif#"/>
+    <param name="canvas" use="sans-character-silhouette2.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -2136,13 +2136,13 @@
           <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.34999847s" before="clamped" after="clamped">
-          <real guid="03DB74615D8EF8B73DE54CB7BE2CD37F" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.36666489s" before="clamped" after="clamped">
-          <real guid="1A991EB4685313D0B27E4348B5030F3D" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 39.38333511s" before="clamped" after="clamped">
-          <real guid="F3ECC091CB08145DD60BCEC2C4966633" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -2177,7 +2177,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="././sans-character.sif#"/>
+    <param name="canvas" use="sans-character.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -2232,6 +2232,12 @@
         </waypoint>
         <waypoint time="1m 16.54999924s" before="clamped" after="clamped">
           <real value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="2m 39.36666489s" before="clamped" after="clamped">
+          <real guid="0CC36D42165363A6D5318636E87DDECA" value="0.0000000000"/>
+        </waypoint>
+        <waypoint time="2m 39.38333511s" before="clamped" after="clamped">
+          <real guid="66E9CC05EDE0B8E9B79921B9CD3037B5" value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
