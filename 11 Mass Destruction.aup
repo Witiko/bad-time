@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="11 Mass Destruction_data" version="1.3.0" audacityversion="2.1.3-alpha-Feb 29 2016" sel0="46.7082292011" sel1="46.7082292011" vpos="960" h="42.5089089102" zoom="122.1626273912" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="11 Mass Destruction_data" version="1.3.0" audacityversion="2.1.3-alpha-Feb 29 2016" sel0="47.2484926304" sel1="47.2484926304" vpos="928" h="47.2484926304" zoom="122.1626273912" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Audio Track (-7 semitones, -0.8 tempo)" channel="0" linked="1" mute="0" solo="0" height="152" minimized="0" isSelected="0" rate="44100" gain="0.223872" pan="0.0">
 		<waveclip offset="16.53181406">
@@ -856,7 +856,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="persona-gun" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.354813" pan="0.0">
+	<wavetrack name="persona-gun" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.112202" pan="0.0">
 		<waveclip offset="48.55822623">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="152576">
 				<waveblock start="0">
@@ -866,7 +866,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="persona-gun" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.354813" pan="0.0">
+	<wavetrack name="persona-gun" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.112202" pan="0.0">
 		<waveclip offset="48.55822623">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="152576">
 				<waveblock start="0">
@@ -876,7 +876,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="pistol-cocking" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.199526" pan="0.0">
+	<wavetrack name="pistol-cocking" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.223872" pan="0.0">
 		<waveclip offset="47.57592100">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="52705">
 				<waveblock start="0">
@@ -886,7 +886,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="pistol-cocking" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.199526" pan="0.0">
+	<wavetrack name="pistol-cocking" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.223872" pan="0.0">
 		<waveclip offset="47.57592100">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="52705">
 				<waveblock start="0">
