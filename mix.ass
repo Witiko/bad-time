@@ -8,57 +8,89 @@ YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: mix.mkv
-Video File: mix.mkv
+Audio File: mix.flac
+Video File: sans-animation-audio.mp4
 Video AR Mode: 4
-Video AR Value: 1.777778
-Video Zoom Percent: 0.125000
-Scroll Position: 17
-Active Line: 22
-Video Position: 2153
+Video AR Value: 1.333333
+Video Zoom Percent: 1.250000
+Scroll Position: 53
+Active Line: 67
+Video Position: 3564
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Impress BT,90,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,10,0,2,50,50,38,0
-Style: Girl Voice,Impress BT,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,4,0,3,40,40,36,0
+Style: Default,Impress BT,20,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,3,2.22222,0,2,9,9,8,0
+Style: Girl Voice (left),8bitoperator,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,1,0.888889,0,1,6,6,8,0
+Style: Girl Voice,8bitoperator,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,1,0.888889,0,3,6,6,8,0
+Style: Sans,8bitoperator,20,&H00C95E07,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,74.955,100,0,0,1,0.9,0,9,6,6,8,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.84,0:00:02.84,Girl Voice,,0,0,0,,(Baby)
-Dialogue: 0,0:00:04.59,0:00:06.41,Girl Voice,,0,0,0,,(Baby, Baby)
-Dialogue: 0,0:00:08.29,0:00:12.30,Girl Voice,,0,0,0,,(Baby × 10)
-Dialogue: 0,0:00:35.59,0:00:37.19,Default,,0,0,0,,I thought told y'all to\Nsit down or get down
-Dialogue: 0,0:00:37.19,0:00:38.29,Default,,0,0,0,,I'm about'a hit ground
-Dialogue: 0,0:00:38.29,0:00:40.17,Default,,0,0,0,,When I'm in the box,\Nmy hits way out of this bounds
-Dialogue: 0,0:00:40.17,0:00:42.32,Default,,0,0,0,,Nobody's topping me\N{\i1}(You know it, damn right){\i0}
-Dialogue: 0,0:00:42.32,0:00:44.25,Default,,0,0,0,,Most of y'alls loving me\N{\i1}(Doing it all night){\i0}
-Dialogue: 0,0:00:44.25,0:00:46.23,Default,,0,0,0,,Keeping my friends close,\Nand my foes closer
-Dialogue: 0,0:00:46.23,0:00:48.28,Default,,0,0,0,,Things getting messy,\Nbut I never lift the nose up
-Dialogue: 0,0:00:48.28,0:00:50.24,Default,,0,0,0,,As I get older\NSee things slower
-Dialogue: 0,0:00:50.24,0:00:52.34,Default,,0,0,0,,My enemies looking like kids,\Nand I'm the grown up {\i1}(Forget it!){\i0}
-Dialogue: 0,0:00:52.34,0:00:54.10,Default,,0,0,0,,I'm the next masterpiece made
-Dialogue: 0,0:00:54.10,0:00:56.28,Default,,0,0,0,,A new generation team,\Na wicked beast “Ace”
-Dialogue: 0,0:00:56.28,0:00:58.40,Default,,0,0,0,,But I'm the mister nice guy\NSee? I'm a wise guy
-Dialogue: 0,0:00:58.40,0:01:00.35,Default,,0,0,0,,Not a mafioso, but I hustle like Mike
-Dialogue: 0,0:01:00.35,0:01:02.00,Default,,0,0,0,,Lay low if you're feelin' me
-Dialogue: 0,0:01:02.00,0:01:04.00,Default,,0,0,0,,I take these beats,\Nfreaks go crazy with me
-Dialogue: 0,0:01:04.00,0:01:05.46,Default,,0,0,0,,So put 'em up in this base with me
-Dialogue: 0,0:01:05.46,0:01:08.43,Default,,0,0,0,,So shake with the man,\NL to the J's, now follow me
-Dialogue: 0,0:01:23.43,0:01:25.03,Default,,0,0,0,,I thought told y'all to\Nsit down or get down
-Dialogue: 0,0:01:25.03,0:01:26.12,Default,,0,0,0,,I'm about'a hit ground
-Dialogue: 0,0:01:26.12,0:01:28.01,Default,,0,0,0,,When I'm in the box,\Nmy hits way out of this bounds
-Dialogue: 0,0:01:28.01,0:01:30.15,Default,,0,0,0,,Nobody's topping me\N{\i1}(You know it, damn right){\i0}
-Dialogue: 0,0:01:30.15,0:01:32.08,Default,,0,0,0,,Most of y'alls loving me\N{\i1}(Doing it all night){\i0}
-Dialogue: 0,0:01:32.08,0:01:34.07,Default,,0,0,0,,Keeping my friends close,\Nand my foes closer
-Dialogue: 0,0:01:34.07,0:01:36.11,Default,,0,0,0,,Things getting messy,\Nbut I never lift the nose up
-Dialogue: 0,0:01:36.11,0:01:38.07,Default,,0,0,0,,As I get older\NSee things slower
-Dialogue: 0,0:01:38.07,0:01:40.18,Default,,0,0,0,,My enemies looking like kids,\Nand I'm the grown up
-Dialogue: 0,0:01:40.18,0:01:41.94,Default,,0,0,0,,I'm the next masterpiece made
-Dialogue: 0,0:01:41.94,0:01:44.12,Default,,0,0,0,,A new generation team,\Na wicked beast “Ace”
-Dialogue: 0,0:01:44.12,0:01:46.24,Default,,0,0,0,,But I'm the mister nice guy\NSee? I'm a wise guy
-Dialogue: 0,0:01:46.24,0:01:48.19,Default,,0,0,0,,Not a mafioso, but I hustle like Mike
-Dialogue: 0,0:01:48.19,0:01:49.84,Default,,0,0,0,,Lay low if you're feelin' me
-Dialogue: 0,0:01:49.84,0:01:51.84,Default,,0,0,0,,I take these beats,\Nfreaks go crazy with me
-Dialogue: 0,0:01:51.84,0:01:53.30,Default,,0,0,0,,So put 'em up in this base with me
-Dialogue: 0,0:01:53.30,0:01:56.27,Default,,0,0,0,,So shake with the man,\NL to the J's, now follow me
-Dialogue: 0,0:01:56.35,0:02:01.00,Girl Voice,,0,0,0,,(Baby × 10)
+Dialogue: 0,0:00:00.40,0:00:04.40,Girl Voice (left),,0,0,0,,Oh yeah! × 1
+Dialogue: 0,0:00:04.40,0:00:08.40,Girl Voice,,0,0,0,,Oh yeah! × 2\h\h\h\h\h\h
+Dialogue: 0,0:00:08.40,0:00:12.40,Girl Voice (left),,0,0,0,,Oh yeah! × 3
+Dialogue: 0,0:00:12.40,0:00:16.40,Girl Voice,,0,0,0,,Oh yeah! × 4
+Dialogue: 0,0:00:16.40,0:00:20.40,Girl Voice,,0,0,0,,Oh yeah! × 5
+Dialogue: 0,0:00:20.40,0:00:24.40,Girl Voice,,0,0,0,,Oh yeah! × 6
+Dialogue: 0,0:00:24.40,0:00:28.40,Girl Voice,,0,0,0,,Oh yeah! × 7
+Dialogue: 0,0:00:28.40,0:00:32.40,Girl Voice,,0,0,0,,Oh yeah! × 8
+Dialogue: 0,0:01:04.68,0:01:05.72,Sans,,0,0,0,,I don't care anymore
+Dialogue: 0,0:01:05.72,0:01:06.67,Sans,,0,0,0,,enough of fake smiles
+Dialogue: 0,0:01:06.67,0:01:07.68,Sans,,0,0,0,,Buckwild I go
+Dialogue: 0,0:01:07.68,0:01:08.89,Sans,,0,0,0,,Tried it on,\Nbut it didn't fit me.
+Dialogue: 0,0:01:08.89,0:01:10.71,Sans,,0,0,0,,so I found a better\Npair of shoes to walk
+Dialogue: 0,0:01:10.71,0:01:11.97,Sans,,0,0,0,,Even in defeat, hold my pride
+Dialogue: 0,0:01:11.97,0:01:12.74,Sans,,0,0,0,,never gonna talk
+Dialogue: 0,0:01:12.74,0:01:14.98,Sans,,0,0,0,,Better yet, my mouth is\ntight like James Bond
+Dialogue: 0,0:01:14.98,0:01:17.02,Sans,,0,0,0,,You thought you saw me\nbut next second I'm gone
+Dialogue: 0,0:01:17.02,0:01:18.04,Sans,,0,0,0,,I don't want no throne
+Dialogue: 0,0:01:18.04,0:01:19.04,Sans,,0,0,0,,I'm a freelancer
+Dialogue: 0,0:01:19.04,0:01:20.03,Sans,,0,0,0,,Do for benjamins
+Dialogue: 0,0:01:20.03,0:01:20.93,Sans,,0,0,0,,but I'm not a gangster
+Dialogue: 0,0:01:20.93,0:01:22.07,Sans,,0,0,0,,Show me what you got
+Dialogue: 0,0:01:22.07,0:01:22.80,Sans,,0,0,0,,if you got it all
+Dialogue: 0,0:01:22.80,0:01:24.34,Sans,,0,0,0,,'cuz I fight\Nnot only verbally
+Dialogue: 0,0:01:24.34,0:01:25.35,Sans,,0,0,0,,Volatile man I am
+Dialogue: 0,0:01:25.35,0:01:26.36,Sans,,0,0,0,,gotta game that I play
+Dialogue: 0,0:01:26.36,0:01:27.47,Sans,,0,0,0,,I thought you might like the way
+Dialogue: 0,0:01:27.47,0:01:29.47,Sans,,0,0,0,,I destruct everywhere\NI lay my hands
+Dialogue: 0,0:01:29.89,0:01:30.87,Sans,,0,0,0,,I'm sick to the {\i1}bone
+Dialogue: 0,0:01:30.87,0:01:31.85,Sans,,0,0,0,,From the top of the dome
+Dialogue: 0,0:01:31.85,0:01:32.91,Sans,,0,0,0,,to the tip of my toe
+Dialogue: 0,0:01:32.91,0:01:33.81,Sans,,0,0,0,,I call the shots
+Dialogue: 0,0:01:33.81,0:01:35.11,Sans,,0,0,0,,the frontman calls the drop
+Dialogue: 0,0:01:35.11,0:01:37.11,Sans,,0,0,0,,Going no where\Nif you wanna take my spot
+Dialogue: 0,0:01:37.11,0:01:38.21,Sans,,0,0,0,,Break down
+Dialogue: 0,0:01:38.21,0:01:38.97,Sans,,0,0,0,,Right off the bat
+Dialogue: 0,0:01:38.97,0:01:40.97,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see
+Dialogue: 0,0:01:40.97,0:01:42.97,Sans,,0,0,0,,I sting like bee\Nlike Muhamad Ali
+Dialogue: 0,0:01:42.97,0:01:44.97,Sans,,0,0,0,,Champion of Champions\Nwill not defeat
+Dialogue: 0,0:01:44.97,0:01:46.97,Sans,,0,0,0,,Came up to beat\Nthe enemy at large
+Dialogue: 0,0:01:46.97,0:01:48.00,Sans,,0,0,0,,But right off the bat
+Dialogue: 0,0:01:48.00,0:01:50.00,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see
+Dialogue: 0,0:01:50.00,0:01:50.80,Sans,,0,0,0,,Let us take a break
+Dialogue: 0,0:01:50.93,0:01:52.21,Sans,,0,0,0,,back to kids and go-carts
+Dialogue: 0,0:01:52.30,0:01:53.81,Girl Voice,,0,0,0,,Oh yeah
+Dialogue: 0,0:01:53.81,0:01:55.32,Girl Voice,,0,0,0,,Dada-da × 2
+Dialogue: 0,0:01:55.32,0:01:56.08,Girl Voice,,0,0,0,,Da-da
+Dialogue: 0,0:01:56.34,0:01:57.60,Girl Voice,,0,0,0,,Baby baby
+Dialogue: 0,0:01:57.60,0:01:58.72,Girl Voice,,0,0,0,,Da-daa-da-da
+Dialogue: 0,0:01:58.72,0:01:59.86,Girl Voice,,0,0,0,,Daa-da-da-da
+Dialogue: 0,0:02:00.36,0:02:01.37,Girl Voice,,0,0,0,,Oh yeah
+Dialogue: 0,0:02:01.37,0:02:03.37,Girl Voice,,0,0,0,,Daa, dada-da ×2
+Dialogue: 0,0:02:03.37,0:02:04.40,Girl Voice,,0,0,0,,Da-da
+Dialogue: 0,0:02:04.40,0:02:05.40,Girl Voice,,0,0,0,,Baby baby
+Dialogue: 0,0:02:05.40,0:02:06.41,Girl Voice,,0,0,0,,Da-daa-da
+Dialogue: 0,0:02:06.41,0:02:07.92,Girl Voice,,0,0,0,,Da-daa
+Dialogue: 0,0:02:08.43,0:02:09.92,Girl Voice,,0,0,0,,Oh yeah
+Dialogue: 0,0:02:09.92,0:02:11.45,Girl Voice,,0,0,0,,Dada-da × 2
+Dialogue: 0,0:02:11.45,0:02:12.22,Girl Voice,,0,0,0,,Da-da
+Dialogue: 0,0:02:12.46,0:02:13.70,Girl Voice,,0,0,0,,Baby baby
+Dialogue: 0,0:02:13.70,0:02:14.87,Girl Voice,,0,0,0,,Da-daa-da-da
+Dialogue: 0,0:02:14.87,0:02:16.09,Girl Voice,,0,0,0,,Daa-da-da-da
+Dialogue: 0,0:02:16.50,0:02:17.51,Girl Voice,,0,0,0,,Oh yeah
+Dialogue: 0,0:02:17.51,0:02:19.51,Girl Voice,,0,0,0,,Daa, dada-da × 2
+Dialogue: 0,0:02:19.51,0:02:20.53,Girl Voice,,0,0,0,,Da-da
+Dialogue: 0,0:02:20.53,0:02:21.54,Girl Voice,,0,0,0,,Baby baby
+Dialogue: 0,0:02:21.54,0:02:22.56,Girl Voice,,0,0,0,,Da-daa-da
+Dialogue: 0,0:02:22.56,0:02:24.56,Girl Voice,,0,0,0,,Da-daa

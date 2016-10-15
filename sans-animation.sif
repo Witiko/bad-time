@@ -1885,7 +1885,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="sans-character-silhouette.sif#"/>
+    <param name="canvas" use="./sans-character-silhouette.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -1927,16 +1927,16 @@
           <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.53333282s" before="clamped" after="clamped">
-          <real guid="4079C42AB5CB9C7769DF73006229FBCF" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.54999924s" before="clamped" after="clamped">
-          <real guid="D947035813583080DFA220365FA8952C" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.56666756s" before="clamped" after="clamped">
-          <real guid="7C02AECE864D27144CB9BC21D856E8DF" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.58333397s" before="clamped" after="clamped">
-          <real guid="05183EE632904C3734C2B7FA29E83E52" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="4m 51s" before="clamped" after="clamped">
           <real value="1.0000000000"/>
@@ -1974,7 +1974,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="sans-character-silhouette2.sif#"/>
+    <param name="canvas" use="./sans-character-silhouette2.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -2007,19 +2007,19 @@
     <param name="amount">
       <animated type="real">
         <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="4DC39F4765FDB7A67A751A6F5800A566" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="1m 4.6833334s" before="clamped" after="clamped">
-          <real guid="A177D07982DB1104C0DD2B60E608480D" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
         <waypoint time="1m 5.69999981s" before="clamped" after="clamped">
-          <real guid="AC357322E7DF4759616173BF70121BED" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.53333282s" before="clamped" after="clamped">
-          <real guid="592AB46A078D2A1B8E35D6AA5DFBFF20" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1m 16.54999924s" before="clamped" after="clamped">
-          <real guid="D3CB4AF2E93B58CF6AB9439CE87550D0" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -2054,7 +2054,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="sans-character.sif#"/>
+    <param name="canvas" use="./sans-character.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -2105,10 +2105,10 @@
           <real value="0.7000000000"/>
         </waypoint>
         <waypoint time="1m 16.53333282s" before="clamped" after="clamped">
-          <real guid="449EACBF4B71BA372A4578C87FDDE744" value="0.7000000000"/>
+          <real value="0.7000000000"/>
         </waypoint>
         <waypoint time="1m 16.54999924s" before="clamped" after="clamped">
-          <real guid="F3E3155A92AE231E2962ABC53B4DB7E3" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
