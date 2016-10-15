@@ -4,18 +4,17 @@
 ScriptType: v4.00+
 PlayResX: 480
 PlayResY: 270
-YCbCr Matrix: TV.601
+YCbCr Matrix: PC.601
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
 Audio File: mix.flac
-Video File: sans-animation-audio.mp4
+Video File: sans-youtube-small.png
 Video AR Mode: 4
-Video AR Value: 1.333333
+Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
-Scroll Position: 53
-Active Line: 67
-Video Position: 3564
+Active Line: 4
+Video Position: 2271
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,46 +29,37 @@ Dialogue: 0,0:00:00.40,0:00:04.40,Girl Voice (left),,0,0,0,,Oh yeah! × 1
 Dialogue: 0,0:00:04.40,0:00:08.40,Girl Voice,,0,0,0,,Oh yeah! × 2\h\h\h\h\h\h
 Dialogue: 0,0:00:08.40,0:00:12.40,Girl Voice (left),,0,0,0,,Oh yeah! × 3
 Dialogue: 0,0:00:12.40,0:00:16.40,Girl Voice,,0,0,0,,Oh yeah! × 4
-Dialogue: 0,0:00:16.40,0:00:20.40,Girl Voice,,0,0,0,,Oh yeah! × 5
+Dialogue: 0,0:00:16.40,0:00:20.40,Girl Voice,,0,0,0,,Oh yeah? × 5
 Dialogue: 0,0:00:20.40,0:00:24.40,Girl Voice,,0,0,0,,Oh yeah! × 6
 Dialogue: 0,0:00:24.40,0:00:28.40,Girl Voice,,0,0,0,,Oh yeah! × 7
 Dialogue: 0,0:00:28.40,0:00:32.40,Girl Voice,,0,0,0,,Oh yeah! × 8
-Dialogue: 0,0:01:04.68,0:01:05.72,Sans,,0,0,0,,I don't care anymore
-Dialogue: 0,0:01:05.72,0:01:06.67,Sans,,0,0,0,,enough of fake smiles
+Dialogue: 0,0:01:04.68,0:01:06.67,Sans,,0,0,0,,I don't care anymore\Nenough of fake smiles\h\h
 Dialogue: 0,0:01:06.67,0:01:07.68,Sans,,0,0,0,,Buckwild I go
-Dialogue: 0,0:01:07.68,0:01:08.89,Sans,,0,0,0,,Tried it on,\Nbut it didn't fit me.
-Dialogue: 0,0:01:08.89,0:01:10.71,Sans,,0,0,0,,so I found a better\Npair of shoes to walk
-Dialogue: 0,0:01:10.71,0:01:11.97,Sans,,0,0,0,,Even in defeat, hold my pride
-Dialogue: 0,0:01:11.97,0:01:12.74,Sans,,0,0,0,,never gonna talk
-Dialogue: 0,0:01:12.74,0:01:14.98,Sans,,0,0,0,,Better yet, my mouth is\ntight like James Bond
-Dialogue: 0,0:01:14.98,0:01:17.02,Sans,,0,0,0,,You thought you saw me\nbut next second I'm gone
-Dialogue: 0,0:01:17.02,0:01:18.04,Sans,,0,0,0,,I don't want no throne
-Dialogue: 0,0:01:18.04,0:01:19.04,Sans,,0,0,0,,I'm a freelancer
-Dialogue: 0,0:01:19.04,0:01:20.03,Sans,,0,0,0,,Do for benjamins
-Dialogue: 0,0:01:20.03,0:01:20.93,Sans,,0,0,0,,but I'm not a gangster
-Dialogue: 0,0:01:20.93,0:01:22.07,Sans,,0,0,0,,Show me what you got
-Dialogue: 0,0:01:22.07,0:01:22.80,Sans,,0,0,0,,if you got it all
-Dialogue: 0,0:01:22.80,0:01:24.34,Sans,,0,0,0,,'cuz I fight\Nnot only verbally
-Dialogue: 0,0:01:24.34,0:01:25.35,Sans,,0,0,0,,Volatile man I am
-Dialogue: 0,0:01:25.35,0:01:26.36,Sans,,0,0,0,,gotta game that I play
-Dialogue: 0,0:01:26.36,0:01:27.47,Sans,,0,0,0,,I thought you might like the way
-Dialogue: 0,0:01:27.47,0:01:29.47,Sans,,0,0,0,,I destruct everywhere\NI lay my hands
+Dialogue: 0,0:01:07.68,0:01:08.89,Sans,,0,0,0,,Tried it on\Nbut it didn't fit me\h\h
+Dialogue: 0,0:01:08.89,0:01:10.71,Sans,,0,0,0,,so I found a better\Npair of shoes to walk\h\h
+Dialogue: 0,0:01:10.71,0:01:12.74,Sans,,0,0,0,,Even in defeat\Nhold my pride\h\h\Nnever gonna talk\h\h\h\h
+Dialogue: 0,0:01:12.74,0:01:14.98,Sans,,0,0,0,,Better yet\Nmy mouth is tight like James Bond\h\h
+Dialogue: 0,0:01:14.98,0:01:17.02,Sans,,0,0,0,,You thought you saw me\Nbut next second I'm gone\h\h
+Dialogue: 0,0:01:17.02,0:01:19.04,Sans,,0,0,0,,I don't want no throne\NI'm a freelancer\h\h
+Dialogue: 0,0:01:19.04,0:01:20.93,Sans,,0,0,0,,Do for benjamins\Nbut I'm not a gangster\h\h
+Dialogue: 0,0:01:20.93,0:01:22.80,Sans,,0,0,0,,{\i1}Show me what you got\N{\i0}if you got it all\h\h
+Dialogue: 0,0:01:22.80,0:01:24.34,Sans,,0,0,0,,'cuz I fight\Nnot only verbally\h\h
+Dialogue: 0,0:01:24.34,0:01:26.36,Sans,,0,0,0,,Volatile man I am\Ngot a game that I play\h\h
+Dialogue: 0,0:01:26.36,0:01:27.33,Sans,,0,0,0,,I thought you might like
+Dialogue: 0,0:01:27.33,0:01:29.47,Sans,,0,0,0,,the way I destruct\Neverywhere I lay my hands\h\h
 Dialogue: 0,0:01:29.89,0:01:30.87,Sans,,0,0,0,,I'm sick to the {\i1}bone
-Dialogue: 0,0:01:30.87,0:01:31.85,Sans,,0,0,0,,From the top of the dome
-Dialogue: 0,0:01:31.85,0:01:32.91,Sans,,0,0,0,,to the tip of my toe
-Dialogue: 0,0:01:32.91,0:01:33.81,Sans,,0,0,0,,I call the shots
-Dialogue: 0,0:01:33.81,0:01:35.11,Sans,,0,0,0,,the frontman calls the drop
-Dialogue: 0,0:01:35.11,0:01:37.11,Sans,,0,0,0,,Going no where\Nif you wanna take my spot
-Dialogue: 0,0:01:37.11,0:01:38.21,Sans,,0,0,0,,Break down
+Dialogue: 0,0:01:30.87,0:01:32.91,Sans,,0,0,0,,From the top of the dome\Nto the tip of my toe\h\h
+Dialogue: 0,0:01:32.91,0:01:35.11,Sans,,0,0,0,,I call the shots\Nthe frontman calls the drop\h\h
+Dialogue: 0,0:01:35.11,0:01:37.11,Sans,,0,0,0,,Going no where\Nif you wanna take my spot\h\h
+Dialogue: 0,0:01:37.11,0:01:38.21,Sans,,0,0,0,,{\i1}Break down
 Dialogue: 0,0:01:38.21,0:01:38.97,Sans,,0,0,0,,Right off the bat
-Dialogue: 0,0:01:38.97,0:01:40.97,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see
-Dialogue: 0,0:01:40.97,0:01:42.97,Sans,,0,0,0,,I sting like bee\Nlike Muhamad Ali
-Dialogue: 0,0:01:42.97,0:01:44.97,Sans,,0,0,0,,Champion of Champions\Nwill not defeat
-Dialogue: 0,0:01:44.97,0:01:46.97,Sans,,0,0,0,,Came up to beat\Nthe enemy at large
+Dialogue: 0,0:01:38.97,0:01:40.97,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see\h\h
+Dialogue: 0,0:01:40.97,0:01:42.97,Sans,,0,0,0,,I sting like bee\Nlike Muhamad Ali\h\h
+Dialogue: 0,0:01:42.97,0:01:44.97,Sans,,0,0,0,,Champion of Champions\Nwill not defeat\h\h
+Dialogue: 0,0:01:44.97,0:01:46.97,Sans,,0,0,0,,Came up to beat\Nthe enemy at large\h\h
 Dialogue: 0,0:01:46.97,0:01:48.00,Sans,,0,0,0,,But right off the bat
-Dialogue: 0,0:01:48.00,0:01:50.00,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see
-Dialogue: 0,0:01:50.00,0:01:50.80,Sans,,0,0,0,,Let us take a break
-Dialogue: 0,0:01:50.93,0:01:52.21,Sans,,0,0,0,,back to kids and go-carts
+Dialogue: 0,0:01:48.00,0:01:50.00,Sans,,0,0,0,,I pop my armory\Ntoo smooth to see\h\h
+Dialogue: 0,0:01:50.00,0:01:52.21,Sans,,0,0,0,,Let us take a break\Nback to kids and go-carts\h\h
 Dialogue: 0,0:01:52.30,0:01:53.81,Girl Voice,,0,0,0,,Oh yeah
 Dialogue: 0,0:01:53.81,0:01:55.32,Girl Voice,,0,0,0,,Dada-da × 2
 Dialogue: 0,0:01:55.32,0:01:56.08,Girl Voice,,0,0,0,,Da-da
@@ -80,8 +70,8 @@ Dialogue: 0,0:02:00.36,0:02:01.37,Girl Voice,,0,0,0,,Oh yeah
 Dialogue: 0,0:02:01.37,0:02:03.37,Girl Voice,,0,0,0,,Daa, dada-da ×2
 Dialogue: 0,0:02:03.37,0:02:04.40,Girl Voice,,0,0,0,,Da-da
 Dialogue: 0,0:02:04.40,0:02:05.40,Girl Voice,,0,0,0,,Baby baby
-Dialogue: 0,0:02:05.40,0:02:06.41,Girl Voice,,0,0,0,,Da-daa-da
-Dialogue: 0,0:02:06.41,0:02:07.92,Girl Voice,,0,0,0,,Da-daa
+Dialogue: 0,0:02:05.40,0:02:06.41,Girl Voice,,0,0,0,,Daa-daa-da
+Dialogue: 0,0:02:06.41,0:02:07.92,Girl Voice,,0,0,0,,Daa-daaa
 Dialogue: 0,0:02:08.43,0:02:09.92,Girl Voice,,0,0,0,,Oh yeah
 Dialogue: 0,0:02:09.92,0:02:11.45,Girl Voice,,0,0,0,,Dada-da × 2
 Dialogue: 0,0:02:11.45,0:02:12.22,Girl Voice,,0,0,0,,Da-da
@@ -92,5 +82,5 @@ Dialogue: 0,0:02:16.50,0:02:17.51,Girl Voice,,0,0,0,,Oh yeah
 Dialogue: 0,0:02:17.51,0:02:19.51,Girl Voice,,0,0,0,,Daa, dada-da × 2
 Dialogue: 0,0:02:19.51,0:02:20.53,Girl Voice,,0,0,0,,Da-da
 Dialogue: 0,0:02:20.53,0:02:21.54,Girl Voice,,0,0,0,,Baby baby
-Dialogue: 0,0:02:21.54,0:02:22.56,Girl Voice,,0,0,0,,Da-daa-da
-Dialogue: 0,0:02:22.56,0:02:24.56,Girl Voice,,0,0,0,,Da-daa
+Dialogue: 0,0:02:21.54,0:02:22.56,Girl Voice,,0,0,0,,Daa-daa-da
+Dialogue: 0,0:02:22.56,0:02:24.56,Girl Voice,,0,0,0,,Daa-daaa
