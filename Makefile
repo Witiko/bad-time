@@ -7,11 +7,11 @@ OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
 
 SYNFIG_RESOURCES=sans-animation.sif sans-character-bw.sif sans-character.sif sans-character-silhouette.sif sans-character-silhouette2.sif
 
-# FFMPEG_OPTIONS=-c:v libx265 -preset veryslow -crf 23 -c:a libfdk_aac -b:a 128k
-FFMPEG_OPTIONS=-c:v libx265 -preset ultrafast -crf 23 -c:a libfdk_aac -b:a 128k
+FFMPEG_OPTIONS=-c:v libx265 -preset veryslow -crf 23 -c:a libfdk_aac -b:a 128k
+# FFMPEG_OPTIONS=-c:v libx265 -preset ultrafast -crf 23 -c:a libfdk_aac -b:a 128k
 ID3V2_OPTIONS=-t 'Bad Times: Reincarnation' -a 'Vít Novotný' -y '2016' -g 'Game;Rap;JPop'
-# SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 30 -Q 1 -q
-SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 1 -Q 9 -w 480 -h 270 --begin-time 0f --end-time 9600f -q
+SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 30 -Q 10 -q
+# SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 1 -Q 9 --begin-time 16591f --end-time 17061f -q
 
 all: $(OUTPUT) clean
 music: $(MUSIC)
