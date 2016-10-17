@@ -7,8 +7,8 @@ OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
 
 SYNFIG_RESOURCES=sans-animation.sif sans-character-bw.sif sans-character.sif sans-character-silhouette.sif sans-character-silhouette2.sif
 
-FFMPEG_OPTIONS=-c:v libx265 -preset veryslow -crf 23 -c:a libfdk_aac -b:a 128k
-# FFMPEG_OPTIONS=-c:v libx265 -preset ultrafast -crf 23 -c:a libfdk_aac -b:a 128k
+# FFMPEG_OPTIONS=-c:v libx265 -preset veryslow -crf 23 -c:a libfdk_aac -b:a 128k
+FFMPEG_OPTIONS=-c:v libx264 -preset ultrafast -crf 18 -c:a libfdk_aac -b:a 128k
 ID3V2_OPTIONS=-t 'Bad Times: Reincarnation' -a 'Vít Novotný' -y '2016' -g 'Game;Rap;JPop'
 SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 30 -Q 10 -q
 # SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 1 -Q 9 --begin-time 16591f --end-time 17061f -q
@@ -33,8 +33,7 @@ video: $(VIDEO)
 	ffmpeg -i $< -c:a libvorbis -q:a 10 -map a -y $@
 
 %.mkv: %.flac %.ass sans-animation.mp4
-	ffmpeg -i $< -i $(word 3,$^) -map 0:0 -map 1:0 -vf ass=$(word 2,$^) $(FFMPEG_OPTIONS) -pass 1 -f matroska -y /dev/null
-	ffmpeg -i $< -i $(word 3,$^) -map 0:0 -map 1:0 -vf ass=$(word 2,$^) $(FFMPEG_OPTIONS) -pass 2 -y $@
+	ffmpeg -i $< -i $(word 3,$^) -map 0:0 -map 1:0 -vf ass=$(word 2,$^) $(FFMPEG_OPTIONS) -y $@
 
 # @require synfig
 %.mp4: %.sif $(SYNFIG_RESOURCES)
