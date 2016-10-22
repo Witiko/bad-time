@@ -737,7 +737,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="./sans-character-bw.sif#"/>
+    <param name="canvas" use="sans-character-bw.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -915,13 +915,13 @@
               </vector>
             </waypoint>
             <waypoint time="0s" before="clamped" after="clamped">
-              <vector guid="83157856030CB7C531C1DE11C8B2E3FE">
+              <vector>
                 <x>-4.8431367874</x>
                 <y>-2.0962724686</y>
               </vector>
             </waypoint>
             <waypoint time="12.48333359s" before="clamped" after="clamped">
-              <vector guid="ED97D81A5653A9EBAC14E488B75C1045">
+              <vector>
                 <x>-4.8499650955</x>
                 <y>-2.0706691742</y>
               </vector>
@@ -955,13 +955,13 @@
               </vector>
             </waypoint>
             <waypoint time="0s" before="clamped" after="clamped">
-              <vector guid="3B9DFF59AA071E3F2CBF619E139FC397">
+              <vector>
                 <x>-0.8987125754</x>
                 <y>-3.0896096230</y>
               </vector>
             </waypoint>
             <waypoint time="12.48333359s" before="clamped" after="clamped">
-              <vector guid="ABE79755867E62B08D56296E3CAADFF9">
+              <vector>
                 <x>-2.6853916645</x>
                 <y>-4.0939350128</y>
               </vector>
@@ -8842,7 +8842,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="./sans-character-silhouette.sif#"/>
+    <param name="canvas" use="sans-character-silhouette.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -8931,7 +8931,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="./sans-character-silhouette2.sif#"/>
+    <param name="canvas" use="sans-character-silhouette2.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -9011,7 +9011,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="./sans-character-silhouette2-blur.sif#"/>
+    <param name="canvas" use="sans-character-silhouette2-blur.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -9091,7 +9091,7 @@
         </scale>
       </composite>
     </param>
-    <param name="canvas" use="./sans-character.sif#"/>
+    <param name="canvas" use="sans-character.sif#"/>
     <param name="time_dilation">
       <real value="1.0000000000"/>
     </param>
@@ -9345,6 +9345,172 @@
     </param>
     <param name="layer_name">
       <string>sans-eye-fiery.png</string>
+    </param>
+  </layer>
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <animated type="vector">
+            <waypoint time="2m 40.13333511s" before="clamped" after="clamped">
+              <vector guid="4C9037628F816BD0B731306B64352B6A">
+                <x>1.6249098778</x>
+                <y>-0.4605215192</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 41.20000076s" before="halt" after="halt">
+              <vector guid="0B83EAA880968DC89C71EBE793F22CA8">
+                <x>4.3284411430</x>
+                <y>-3.3699176311</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 42.25s" before="halt" after="linear">
+              <vector guid="9378B32C464468ADC473DD9E0EAA6F68">
+                <x>-0.8351163268</x>
+                <y>0.6385232806</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 55.33333206s" before="clamped" after="halt">
+              <vector guid="53A521627F9027CBC747F5D96A6B53E3">
+                <x>-0.8351163268</x>
+                <y>0.6385232806</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 56.33333206s" before="halt" after="halt">
+              <vector guid="73239E38372EC5909F8346EC5B6D992C">
+                <x>0.4248120487</x>
+                <y>0.0692331940</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 58.04999924s" before="halt" after="halt">
+              <vector guid="61BDE3DFE2FB7C305AF7E7796D44BF05">
+                <x>-1.2898763418</x>
+                <y>-0.0410059020</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 59.95000076s" before="halt" after="halt">
+              <vector guid="E564CB8AFBE57569265B0614E6F0F85C">
+                <x>1.5236743689</x>
+                <y>0.2693304121</y>
+              </vector>
+            </waypoint>
+          </animated>
+        </offset>
+        <angle>
+          <animated type="angle">
+            <waypoint time="2m 40.18333435s" before="halt" after="halt">
+              <angle guid="CEA6026DA1B2FF9F4418AE253458D9E8" value="7.000000"/>
+            </waypoint>
+            <waypoint time="2m 46.84999847s" before="halt" after="halt">
+              <angle guid="2E0A3798CCC8E6A5FB81ED64E235906B" value="-7.000000"/>
+            </waypoint>
+            <waypoint time="2m 53.51666641s" before="halt" after="halt">
+              <angle guid="CEA6026DA1B2FF9F4418AE253458D9E8" value="7.000000"/>
+            </waypoint>
+            <waypoint time="2m 55.33333206s" before="clamped" after="halt">
+              <angle guid="419938EEA116DB1ECF35D202B557A7DD" value="4.447813"/>
+            </waypoint>
+            <waypoint time="2m 56.33333206s" before="halt" after="halt">
+              <angle guid="3D625473566054C67269E8290E1CA7DA" value="-1084.449951"/>
+            </waypoint>
+            <waypoint time="2m 57.83333206s" before="halt" after="halt">
+              <angle guid="801B776F391D00ACAF527D87D590F91C" value="-1072.000122"/>
+            </waypoint>
+            <waypoint time="2m 58.33333206s" before="halt" after="halt">
+              <angle guid="54A79893F5738E022412011A6D40467A" value="-727.999939"/>
+            </waypoint>
+            <waypoint time="2m 59.61666489s" before="halt" after="halt">
+              <angle guid="B1BAADDA09FEE7DFEACDC4B024B22185" value="-712.000000"/>
+            </waypoint>
+            <waypoint time="3m 0.38333333s" before="halt" after="halt">
+              <angle guid="4D1F0095E2A551BC7A1F976388D6353D" value="-352.000000"/>
+            </waypoint>
+          </animated>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <animated type="vector">
+            <waypoint time="2m 40.18333435s" before="clamped" after="clamped">
+              <vector guid="9CE9DF80F69CBA613F73EF9D7E4649CA">
+                <x>0.1199038178</x>
+                <y>0.1199038178</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 41.20000076s" before="halt" after="halt">
+              <vector guid="B6534521AB981CDC43680FE001F07E6A">
+                <x>0.2481799126</x>
+                <y>0.2481799126</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 42.25s" before="halt" after="linear">
+              <vector guid="205CE238B0DAFCD529BB133013A1C9CB">
+                <x>0.1785630733</x>
+                <y>0.1785630733</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 55.31666565s" before="clamped" after="halt">
+              <vector guid="0726B89510DFF53DE995F7188130B7AB">
+                <x>0.1785630733</x>
+                <y>0.1785630733</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 56.33333206s" before="halt" after="halt">
+              <vector guid="483953DFF6865B051F681DE69B303EF5">
+                <x>0.2691028416</x>
+                <y>0.2691028416</y>
+              </vector>
+            </waypoint>
+            <waypoint time="2m 57.83333206s" before="halt" after="halt">
+              <vector guid="A3B05FA759FB7290927EE4F7A17F06AF">
+                <x>0.2375561893</x>
+                <y>0.2375561893</y>
+              </vector>
+            </waypoint>
+          </animated>
+        </scale>
+      </composite>
+    </param>
+    <param name="canvas" use="blaster-animation-loop.sif#"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="-2m -40.18333435s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true"/>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real guid="4A419DB60B303C58573B07FA695E0BDE" value="1.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
     </param>
   </layer>
 </canvas>
