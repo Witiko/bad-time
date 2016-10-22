@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1.0" width="1357" height="1357" xres="2834.645752" yres="2834.645752" view-box="-11.312500 11.312500 11.312500 -11.312500" antialias="2" fps="60.000" begin-time="0f" end-time="20s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="1.0" width="1357" height="1357" xres="2834.645752" yres="2834.645752" view-box="-11.312500 11.312500 11.312500 -11.312500" antialias="2" fps="60.000" begin-time="0f" end-time="29s 59f" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>blaster-animation.sif</name>
   <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
   <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
@@ -84,51 +84,99 @@
               </vector>
             </waypoint>
             <waypoint time="16s" before="halt" after="halt">
-              <vector>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
                 <x>-0.0000000245</x>
                 <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="17s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
               </vector>
             </waypoint>
             <waypoint time="18s" before="halt" after="halt">
-              <vector>
-                <x>0.0000000245</x>
-                <y>0.5600247383</y>
-              </vector>
-            </waypoint>
-            <waypoint time="20s" before="halt" after="halt">
-              <vector>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
                 <x>-0.0000000245</x>
                 <y>-0.5600247383</y>
               </vector>
             </waypoint>
+            <waypoint time="19s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
+              </vector>
+            </waypoint>
+            <waypoint time="20s" before="halt" after="halt">
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="21s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
+              </vector>
+            </waypoint>
             <waypoint time="22s" before="halt" after="halt">
-              <vector guid="41953A7176B2CB8516727B8F6A4C05CF">
-                <x>0.0000000490</x>
-                <y>1.1200494766</y>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="23s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
               </vector>
             </waypoint>
             <waypoint time="24s" before="halt" after="halt">
-              <vector guid="9499DBF29FC8673DB06451067D4EC982">
-                <x>-0.0000000490</x>
-                <y>-1.1200494766</y>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="25s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
               </vector>
             </waypoint>
             <waypoint time="26s" before="halt" after="halt">
-              <vector guid="41953A7176B2CB8516727B8F6A4C05CF">
-                <x>0.0000000490</x>
-                <y>1.1200494766</y>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="27s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
               </vector>
             </waypoint>
             <waypoint time="28s" before="halt" after="halt">
-              <vector guid="9499DBF29FC8673DB06451067D4EC982">
-                <x>-0.0000000490</x>
-                <y>-1.1200494766</y>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="29s" before="halt" after="halt">
+              <vector guid="05B1388B45188FB4A44016F824AC9F2A">
+                <x>0.0000000524</x>
+                <y>1.1973487139</y>
               </vector>
             </waypoint>
             <waypoint time="30s" before="halt" after="halt">
-              <vector guid="41953A7176B2CB8516727B8F6A4C05CF">
-                <x>0.0000000490</x>
-                <y>1.1200494766</y>
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
+              </vector>
+            </waypoint>
+            <waypoint time="40s" before="halt" after="halt">
+              <vector guid="F0D74E820ED58544F11E9B4F51813EEF">
+                <x>-0.0000000245</x>
+                <y>-0.5600247383</y>
               </vector>
             </waypoint>
           </animated>
@@ -194,9 +242,27 @@
                     </vector>
                   </waypoint>
                   <waypoint time="20s" before="halt" after="halt">
-                    <vector>
-                      <x>-0.0000000914</x>
-                      <y>-1.0456218719</y>
+                    <vector guid="BF07681AFC0CA4D5B7F9582932CAC375">
+                      <x>-0.0000001791</x>
+                      <y>-2.0484793186</y>
+                    </vector>
+                  </waypoint>
+                  <waypoint time="25s" before="halt" after="halt">
+                    <vector guid="827DEF942808661B1FC7E7F7758FD1E0">
+                      <x>0.0000000366</x>
+                      <y>0.4180980623</y>
+                    </vector>
+                  </waypoint>
+                  <waypoint time="30s" before="halt" after="halt">
+                    <vector guid="BF07681AFC0CA4D5B7F9582932CAC375">
+                      <x>-0.0000001791</x>
+                      <y>-2.0484793186</y>
+                    </vector>
+                  </waypoint>
+                  <waypoint time="40s" before="halt" after="halt">
+                    <vector guid="BF07681AFC0CA4D5B7F9582932CAC375">
+                      <x>-0.0000001791</x>
+                      <y>-2.0484793186</y>
                     </vector>
                   </waypoint>
                 </animated>
