@@ -779,10 +779,10 @@
           <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 40.83333206s" before="clamped" after="clamped">
-          <real guid="008925F5B1A75CDD3E0B7E05229D6EF9" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 40.84999847s" before="clamped" after="clamped">
-          <real guid="2B0A43194B61FC019724899F3AB3AA6A" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -872,15 +872,15 @@
               </vector>
             </waypoint>
             <waypoint time="3m 11s" before="clamped" after="clamped">
-              <vector guid="8DD7AF3A172F6B9209A03002364A4F70">
+              <vector>
                 <x>0.3985572457</x>
                 <y>7.7088875771</y>
               </vector>
             </waypoint>
             <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
               <vector>
-                <x>0.3985590637</x>
-                <y>48.9963684082</y>
+                <x>0.3985591531</x>
+                <y>55.4249382019</y>
               </vector>
             </waypoint>
           </animated>
@@ -1085,7 +1085,7 @@
             <a>1.000000</a>
           </color>
         </waypoint>
-        <waypoint time="3m 11.46666622s" before="clamped" after="clamped">
+        <waypoint time="3m 10.94999981s" before="clamped" after="clamped">
           <color>
             <r>0.588748</r>
             <g>0.000000</g>
@@ -1093,15 +1093,7 @@
             <a>1.000000</a>
           </color>
         </waypoint>
-        <waypoint time="3m 11.96666622s" before="clamped" after="clamped">
-          <color>
-            <r>0.439216</r>
-            <g>0.360784</g>
-            <b>0.000000</b>
-            <a>1.000000</a>
-          </color>
-        </waypoint>
-        <waypoint time="3m 12.48333359s" before="clamped" after="clamped">
+        <waypoint time="3m 10.96666622s" before="clamped" after="clamped">
           <color>
             <r>0.000000</r>
             <g>0.066667</g>
@@ -9082,10 +9074,10 @@
           <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 55.84999847s" before="clamped" after="clamped">
-          <real guid="31ADBFD39320202D3AE60679A1C074E9" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="2m 55.86666489s" before="clamped" after="clamped">
-          <real guid="EC1179940DB85AD0705FC33DC989ADA5" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -9809,10 +9801,10 @@
         <waypoint time="2m 56.33333206s" before="clamped" after="clamped">
           <real value="1.0000000000"/>
         </waypoint>
-        <waypoint time="3m 11.46666622s" before="clamped" after="clamped">
+        <waypoint time="3m 10.94999981s" before="clamped" after="clamped">
           <real value="1.0000000000"/>
         </waypoint>
-        <waypoint time="3m 12.48333359s" before="clamped" after="clamped">
+        <waypoint time="3m 10.96666622s" before="clamped" after="clamped">
           <real value="0.0000000000"/>
         </waypoint>
       </animated>
@@ -9912,17 +9904,11 @@
         <waypoint time="0s" before="clamped" after="clamped">
           <real value="0.0000000000"/>
         </waypoint>
-        <waypoint time="2m 40.83333206s" before="clamped" after="clamped">
-          <real guid="3A893A098E5383959824B68802DBE8EB" value="0.0000000000"/>
-        </waypoint>
-        <waypoint time="2m 40.84999847s" before="clamped" after="clamped">
-          <real guid="69DF072A722CF628180A2154781EA09C" value="1.0000000000"/>
-        </waypoint>
         <waypoint time="2m 55.84999847s" before="clamped" after="clamped">
-          <real guid="1F7FC9149D7FEA880E4C5FD6F35A5538" value="0.0000000000"/>
+          <real guid="5B5D080A7C82C2FDE5003B1FD5910C3D" value="0.0000000000"/>
         </waypoint>
         <waypoint time="2m 55.86666489s" before="clamped" after="clamped">
-          <real guid="987CC08888C24F2FF32A4B1EF2B78A9D" value="1.0000000000"/>
+          <real guid="83FC4778F4ED129454AB148D1C826684" value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -10011,16 +9997,10 @@
                 <y>-0.1702968925</y>
               </vector>
             </waypoint>
-            <waypoint time="3m 11s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <vector>
-                <x>0.3985572457</x>
-                <y>7.7088875771</y>
-              </vector>
-            </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
-              <vector>
-                <x>0.3985590637</x>
-                <y>48.9963684082</y>
+                <x>0.3319611847</x>
+                <y>54.7637901306</y>
               </vector>
             </waypoint>
           </animated>
@@ -10084,10 +10064,10 @@
             <waypoint time="3m 8.44999981s" before="halt" after="halt">
               <angle value="-1108.000000"/>
             </waypoint>
-            <waypoint time="3m 11s" before="clamped" after="clamped">
+            <waypoint time="3m 10.96666622s" before="clamped" after="clamped">
               <angle value="-1080.000000"/>
             </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <angle value="-1080.000000"/>
             </waypoint>
           </animated>
@@ -10145,7 +10125,7 @@
                 <y>0.2375561893</y>
               </vector>
             </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <vector>
                 <x>12.6268424988</x>
                 <y>12.6268424988</y>
@@ -10190,12 +10170,6 @@
         <waypoint time="0s" before="clamped" after="clamped">
           <real value="0.0000000000"/>
         </waypoint>
-        <waypoint time="2m 40.83333206s" before="clamped" after="clamped">
-          <real value="0.0000000000"/>
-        </waypoint>
-        <waypoint time="2m 40.84999847s" before="clamped" after="clamped">
-          <real value="1.0000000000"/>
-        </waypoint>
         <waypoint time="2m 55.84999847s" before="clamped" after="clamped">
           <real value="0.0000000000"/>
         </waypoint>
@@ -10203,10 +10177,10 @@
           <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="3m 10.96666622s" before="clamped" after="clamped">
-          <real guid="ED004A9A3F0983BC13577AE6C39F73AF" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
-        <waypoint time="3m 11.98333359s" before="clamped" after="clamped">
-          <real guid="7C2A078636799E1DD5273C136C218864" value="0.0000000000"/>
+        <waypoint time="3m 11.96666622s" before="clamped" after="clamped">
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -10248,19 +10222,19 @@
               </vector>
             </waypoint>
             <waypoint time="2m 56.33333206s" before="halt" after="halt">
-              <vector guid="D0B8DE9F81D5B1A17C66B6872D288C29">
+              <vector guid="3E887070B32DB4ADEA353871E4046AF7">
                 <x>0.4248120487</x>
                 <y>0.0692331940</y>
               </vector>
             </waypoint>
             <waypoint time="2m 58.04999924s" before="halt" after="halt">
-              <vector guid="C226A37854000801B91217121B01AA00">
+              <vector guid="2C160D9766F80D0D2F4199E4D22D4CDE">
                 <x>-1.2898763418</x>
                 <y>-0.0410059020</y>
               </vector>
             </waypoint>
             <waypoint time="2m 59.95000076s" before="halt" after="halt">
-              <vector guid="6E9B454E733FA231C663D43A84744E3A">
+              <vector guid="80ABEBA141C7A73D50305ACC4D58A8E4">
                 <x>1.5236743689</x>
                 <y>-0.0160354525</y>
               </vector>
@@ -10272,19 +10246,19 @@
               </vector>
             </waypoint>
             <waypoint time="3m 4.4000001s" before="halt" after="halt">
-              <vector guid="D0B8DE9F81D5B1A17C66B6872D288C29">
+              <vector guid="3E887070B32DB4ADEA353871E4046AF7">
                 <x>0.4248120487</x>
                 <y>0.0692331940</y>
               </vector>
             </waypoint>
             <waypoint time="3m 6.11666679s" before="halt" after="halt">
-              <vector guid="C226A37854000801B91217121B01AA00">
+              <vector guid="2C160D9766F80D0D2F4199E4D22D4CDE">
                 <x>-1.2898763418</x>
                 <y>-0.0410059020</y>
               </vector>
             </waypoint>
             <waypoint time="3m 8.01666641s" before="halt" after="halt">
-              <vector guid="6E9B454E733FA231C663D43A84744E3A">
+              <vector guid="80ABEBA141C7A73D50305ACC4D58A8E4">
                 <x>1.5236743689</x>
                 <y>-0.0160354525</y>
               </vector>
@@ -10295,16 +10269,10 @@
                 <y>-0.1702968925</y>
               </vector>
             </waypoint>
-            <waypoint time="3m 11s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <vector>
-                <x>0.3985572457</x>
-                <y>7.7088875771</y>
-              </vector>
-            </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
-              <vector>
-                <x>0.3985590637</x>
-                <y>48.9963684082</y>
+                <x>0.3319611847</x>
+                <y>54.7637901306</y>
               </vector>
             </waypoint>
           </animated>
@@ -10312,22 +10280,22 @@
         <angle>
           <animated type="angle">
             <waypoint time="2m 40.18333435s" before="halt" after="halt">
-              <angle guid="6D3D42CA17498BAEA7FD5E4E421DCCED" value="7.000000"/>
+              <angle guid="830DEC2525B18EA231AED0B88B312A33" value="7.000000"/>
             </waypoint>
             <waypoint time="2m 46.84999847s" before="halt" after="halt">
               <angle value="-7.000000"/>
             </waypoint>
             <waypoint time="2m 53.51666641s" before="halt" after="halt">
-              <angle guid="6D3D42CA17498BAEA7FD5E4E421DCCED" value="7.000000"/>
+              <angle guid="830DEC2525B18EA231AED0B88B312A33" value="7.000000"/>
             </waypoint>
             <waypoint time="2m 55.33333206s" before="clamped" after="halt">
               <angle value="4.447813"/>
             </waypoint>
             <waypoint time="2m 56.33333206s" before="halt" after="halt">
-              <angle guid="9EF914D4E09B20F7918C18427859B2DF" value="-1084.449951"/>
+              <angle guid="70C9BA3BD26325FB07DF96B4B1755401" value="-1084.449951"/>
             </waypoint>
             <waypoint time="2m 57.83333206s" before="halt" after="halt">
-              <angle guid="238037C88FE6749D4CB78DECA3D5EC19" value="-1072.000122"/>
+              <angle guid="CDB09927BD1E7191DAE4031A6AF90AC7" value="-1072.000122"/>
             </waypoint>
             <waypoint time="2m 58.33333206s" before="halt" after="halt">
               <angle value="-727.999878"/>
@@ -10354,10 +10322,10 @@
               <angle value="-724.450012"/>
             </waypoint>
             <waypoint time="3m 4.4000001s" before="halt" after="halt">
-              <angle guid="9EF914D4E09B20F7918C18427859B2DF" value="-1084.449951"/>
+              <angle guid="70C9BA3BD26325FB07DF96B4B1755401" value="-1084.449951"/>
             </waypoint>
             <waypoint time="3m 5.9000001s" before="halt" after="halt">
-              <angle guid="238037C88FE6749D4CB78DECA3D5EC19" value="-1072.000122"/>
+              <angle guid="CDB09927BD1E7191DAE4031A6AF90AC7" value="-1072.000122"/>
             </waypoint>
             <waypoint time="3m 6.4000001s" before="halt" after="halt">
               <angle value="-727.999878"/>
@@ -10368,10 +10336,10 @@
             <waypoint time="3m 8.44999981s" before="halt" after="halt">
               <angle value="-1108.000000"/>
             </waypoint>
-            <waypoint time="3m 11s" before="clamped" after="clamped">
+            <waypoint time="3m 10.96666622s" before="clamped" after="clamped">
               <angle value="-1080.000000"/>
             </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <angle value="-1080.000000"/>
             </waypoint>
           </animated>
@@ -10412,13 +10380,13 @@
               </vector>
             </waypoint>
             <waypoint time="2m 57.83333206s" before="halt" after="halt">
-              <vector guid="002B1F00EF0006A1719B149CD73A13AA">
+              <vector guid="EE1BB1EFDDF803ADE7C89A6A1E16F574">
                 <x>0.2375561893</x>
                 <y>0.2375561893</y>
               </vector>
             </waypoint>
             <waypoint time="3m 5.9000001s" before="halt" after="halt">
-              <vector guid="002B1F00EF0006A1719B149CD73A13AA">
+              <vector guid="EE1BB1EFDDF803ADE7C89A6A1E16F574">
                 <x>0.2375561893</x>
                 <y>0.2375561893</y>
               </vector>
@@ -10429,7 +10397,7 @@
                 <y>0.2375561893</y>
               </vector>
             </waypoint>
-            <waypoint time="3m 12.46666622s" before="clamped" after="clamped">
+            <waypoint time="3m 12.46666622s" before="halt" after="clamped">
               <vector>
                 <x>12.6268424988</x>
                 <y>12.6268424988</y>
