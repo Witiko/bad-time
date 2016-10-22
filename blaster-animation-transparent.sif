@@ -217,6 +217,70 @@
           </param>
           <param name="canvas">
             <canvas>
+              <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+                <param name="z_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="amount">
+                  <real value="1.0000000000"/>
+                </param>
+                <param name="blend_method">
+                  <integer value="0" static="true"/>
+                </param>
+                <param name="origin">
+                  <vector>
+                    <x>0.0000000000</x>
+                    <y>0.0000000000</y>
+                  </vector>
+                </param>
+                <param name="transformation">
+                  <composite type="transformation">
+                    <offset>
+                      <vector>
+                        <x>0.0000000628</x>
+                        <y>0.7182179689</y>
+                      </vector>
+                    </offset>
+                    <angle>
+                      <angle value="0.000000"/>
+                    </angle>
+                    <skew_angle>
+                      <angle value="0.000000"/>
+                    </skew_angle>
+                    <scale>
+                      <vector>
+                        <x>1.0000000000</x>
+                        <y>1.0000000000</y>
+                      </vector>
+                    </scale>
+                  </composite>
+                </param>
+                <param name="canvas" use="blaster-jaw-silhouette-blur.sif#"/>
+                <param name="time_dilation">
+                  <real value="1.0000000000"/>
+                </param>
+                <param name="time_offset">
+                  <time value="0s"/>
+                </param>
+                <param name="children_lock">
+                  <bool value="true"/>
+                </param>
+                <param name="outline_grow">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range">
+                  <bool value="false" static="true"/>
+                </param>
+                <param name="z_range_position">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_blur">
+                  <real value="0.0000000000"/>
+                </param>
+              </layer>
               <layer type="group" active="false" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
@@ -541,6 +605,70 @@
           </param>
           <param name="children_lock">
             <bool value="false"/>
+          </param>
+          <param name="outline_grow">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
+        </layer>
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0" static="true"/>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
+          <param name="canvas" use="blaster-head-silhouette-blur.sif#"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="time_offset">
+            <time value="0s"/>
+          </param>
+          <param name="children_lock">
+            <bool value="true"/>
           </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
