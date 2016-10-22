@@ -170,31 +170,31 @@
               <offset>
                 <animated type="vector">
                   <waypoint time="0s" before="halt" after="halt">
-                    <vector guid="E594825E2CAB42057E48B3CFEAC51581">
+                    <vector>
                       <x>-0.0000000914</x>
                       <y>-1.0456218719</y>
                     </vector>
                   </waypoint>
                   <waypoint time="5s" before="halt" after="halt">
-                    <vector guid="2F33D8633DF03A04101B60DB26462CC8">
+                    <vector>
                       <x>-0.0000000000</x>
                       <y>0.0000000000</y>
                     </vector>
                   </waypoint>
                   <waypoint time="10s" before="halt" after="halt">
-                    <vector guid="1EF71AFA3B4B2823FBD6A5B47A0FD5F7">
+                    <vector>
                       <x>-0.0000000914</x>
                       <y>-1.0456218719</y>
                     </vector>
                   </waypoint>
                   <waypoint time="15s" before="halt" after="halt">
-                    <vector guid="C481B06D9F24AB623268112DE1B7C768">
+                    <vector>
                       <x>0.0000000000</x>
                       <y>0.0000000000</y>
                     </vector>
                   </waypoint>
                   <waypoint time="20s" before="halt" after="halt">
-                    <vector guid="B3C4E61DFD5BFA5252E0664693D96B88">
+                    <vector>
                       <x>-0.0000000914</x>
                       <y>-1.0456218719</y>
                     </vector>
@@ -237,8 +237,8 @@
                   <composite type="transformation">
                     <offset>
                       <vector>
-                        <x>0.0000000000</x>
-                        <y>0.0000000000</y>
+                        <x>0.0000000628</x>
+                        <y>0.7182179689</y>
                       </vector>
                     </offset>
                     <angle>
@@ -286,7 +286,7 @@
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="0.2000000000"/>
+                  <real value="0.8000000000"/>
                 </param>
                 <param name="blend_method">
                   <integer value="0" static="true"/>
@@ -393,20 +393,10 @@
                 <param name="transformation">
                   <composite type="transformation">
                     <offset>
-                      <animated type="vector">
-                        <waypoint time="25s" before="halt" after="halt">
-                          <vector>
-                            <x>0.0000000628</x>
-                            <y>0.7182179689</y>
-                          </vector>
-                        </waypoint>
-                        <waypoint time="30s" before="halt" after="halt">
-                          <vector>
-                            <x>-0.0000000251</x>
-                            <y>-0.2872872055</y>
-                          </vector>
-                        </waypoint>
-                      </animated>
+                      <vector>
+                        <x>0.0000000628</x>
+                        <y>0.7182179689</y>
+                      </vector>
                     </offset>
                     <angle>
                       <angle value="0.000000"/>
@@ -453,7 +443,7 @@
                   <real value="0.0000000000"/>
                 </param>
                 <param name="amount">
-                  <real value="0.1000000000"/>
+                  <real value="0.3000000000"/>
                 </param>
                 <param name="blend_method">
                   <integer value="0" static="true"/>
@@ -607,6 +597,80 @@
             </composite>
           </param>
           <param name="canvas" use="blaster-head.sif#"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="time_offset">
+            <time value="0s"/>
+          </param>
+          <param name="children_lock">
+            <bool value="true"/>
+          </param>
+          <param name="outline_grow">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
+        </layer>
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <animated type="real">
+              <waypoint time="0s" before="clamped" after="clamped">
+                <real value="0.0500000000"/>
+              </waypoint>
+              <waypoint time="15.16666698s" before="clamped" after="clamped">
+                <real value="0.0000000000"/>
+              </waypoint>
+              <waypoint time="16.16666603s" before="clamped" after="clamped">
+                <real value="1.0000000000"/>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="blend_method">
+            <integer value="0" static="true"/>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
+          <param name="canvas" use="blaster-head-fiery.sif#"/>
           <param name="time_dilation">
             <real value="1.0000000000"/>
           </param>
