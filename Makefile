@@ -1,19 +1,8 @@
-.PHONY: all music images video implode clean
+.PHONY: all music images video implode
 MUSIC=mix.flac mix.mp3 mix.ogg
 IMAGES=sans.png
 VIDEO=mix.mkv sans-animation.mp4
 OUTPUT=$(MUSIC) $(IMAGES) $(VIDEO)
-
-AUXILIARY=\
-	ffmpeg2pass-0.log \
-	thread1.ts \
-	thread1.mp4 \
-	thread1.out \
-	thread1.err \
-	thread2.ts \
-	thread2.mp4 \
-	thread2.out \
-	thread2.err
 
 SYNFIG_RESOURCES=\
 	blaster-animation.sif \
@@ -39,10 +28,10 @@ FFMPEG_OPTIONS=-c:v libx264 -preset ultrafast -crf 18 -c:a libfdk_aac -b:a 128k
 ID3V2_OPTIONS=-t 'Bad Times: Reincarnation' -a 'Vít Novotný' -y '2016' -g 'Game;Rap;JPop'
 SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -a 30 -Q 1 -q
 # SYNFIG_OPTIONS=-t ffmpeg --video-codec libx264-lossless --video-bitrate 10000 -w 480 -h 270 -a 1 -Q 10 -q
-SYNFIG_THREAD1_OPTIONS=--begin-time=0f    --end-time=8729f
-SYNFIG_THREAD2_OPTIONS=--begin-time=8730f --end-time=17460f
+SYNFIG_THREAD1_OPTIONS=--begin-time=0f     --end-time=10659f
+SYNFIG_THREAD2_OPTIONS=--begin-time=10660f --end-time=17460f
 
-all: $(OUTPUT) clean
+all: $(OUTPUT)
 music: $(MUSIC)
 images: $(IMAGES)
 video: $(VIDEO)
@@ -66,8 +55,8 @@ video: $(VIDEO)
 
 # @require synfig ffmpeg
 %.mp4: %.sif $(SYNFIG_RESOURCES)
-	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD1_OPTIONS) 2>thread1.err -o thread1.mp4 | tee thread1.out & \
-	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD2_OPTIONS) 2>thread2.err -o thread2.mp4 | tee thread2.out & wait
+	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD1_OPTIONS) 1>thread1.out 2>thread1.err -o thread1.mp4 & \
+	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD2_OPTIONS) 1>thread2.out 2>thread2.err -o thread2.mp4 & wait
 	ffmpeg -i thread1.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts thread1.ts
 	ffmpeg -i thread2.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts thread2.ts
 	ffmpeg -i 'concat:thread1.ts|thread2.ts' -c copy -bsf:a aac_adtstoasc $@
@@ -76,8 +65,5 @@ video: $(VIDEO)
 %.png: %.svg
 	inkscape $< --export-png=$@ -w 2000 -h 2000
 
-clean:
-	rm -f $(AUXILIARY)
-
-implode: clean
+implode:
 	rm -f $(OUTPUT)
