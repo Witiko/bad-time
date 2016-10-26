@@ -14,8 +14,8 @@ Video AR Mode: 4
 Video AR Value: 1.764706
 Video Zoom Percent: 0.375000
 Scroll Position: 129
-Active Line: 130
-Video Position: 16945
+Active Line: 134
+Video Position: 17114
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -162,7 +162,3 @@ Dialogue: 0,0:04:33.22,0:04:37.22,Girl Voice,,0,0,0,,Oh yeah × 1
 Dialogue: 0,0:04:37.22,0:04:41.22,Girl Voice,,0,0,0,,Oh yeah × 2
 Dialogue: 0,0:04:41.22,0:04:45.22,Girl Voice,,0,0,0,,Oh yeah × 3
 Dialogue: 0,0:04:45.22,0:04:49.22,Girl Voice,,0,0,0,,Oh yeah × 4
-Dialogue: 0,0:04:49.22,0:04:53.22,Girl Voice,,0,0,0,,Oh yeah × 5
-Dialogue: 0,0:04:53.22,0:04:57.22,Girl Voice,,0,0,0,,Oh yeah × 6
-Dialogue: 0,0:04:57.22,0:05:01.22,Girl Voice,,0,0,0,,Oh yeah × 7
-Dialogue: 0,0:05:01.22,0:05:04.37,Girl Voice,,0,0,0,,Oh yeah × 8
