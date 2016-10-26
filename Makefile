@@ -57,9 +57,7 @@ video: $(VIDEO)
 %.mp4: %.sif $(SYNFIG_RESOURCES)
 	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD1_OPTIONS) 1>thread1.out 2>thread1.err -o thread1.mp4 & \
 	synfig $< $(SYNFIG_OPTIONS) $(SYNFIG_THREAD2_OPTIONS) 1>thread2.out 2>thread2.err -o thread2.mp4 & wait
-	ffmpeg -i thread1.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts thread1.ts
-	ffmpeg -i thread2.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts thread2.ts
-	ffmpeg -i 'concat:thread1.ts|thread2.ts' -c copy -bsf:a aac_adtstoasc $@
+	./cat_h264.sh thread1.mp4 thread2.mp4 $@
 
 # @require inkscape
 %.png: %.svg
