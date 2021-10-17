@@ -26,7 +26,7 @@ video: $(VIDEO)
 	ffmpeg -i $< -c:a libmp3lame -q:a 0 -b:a 320k -abr 1 -y $@
 
 %.ogg: %.flac
-	ffmpeg -i $< -c:a libvorbis -q:a 10 -map a -y $@
+	ffmpeg -i $< -c:a libvorbis -q:a 3 -map a -y $@
 
 %.mkv: %.ogg sans-youtube-1080p.png
 	ffmpeg -framerate 1 -r 25 -loop 1 -i $(word 2,$^) -i $< -c:v libx265 -c:a copy -shortest -vf ass=mix.ass -y $@
